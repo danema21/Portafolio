@@ -8,6 +8,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff7700;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -800,6 +813,11 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.portfolio-wrap img{
+  width: 100%;
+  height: 300px;
 }
 
 /*--------------------------------------------------------------
